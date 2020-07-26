@@ -4,7 +4,7 @@
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'MARA  CDS1'
 define view ZIMARA as select from zmara {
-    key matnr,
-    maktx
+    key matnr as Material, 
+    maktx as Description
 } 
  
