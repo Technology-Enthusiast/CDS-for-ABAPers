@@ -1,0 +1,8 @@
+@Metadata.layer: #CORE
+annotate view ZIPropagation with
+{
+  @EndUserText.label:'Mine Purchase Order Item'
+
+  poitem;
+
+}
