@@ -6,7 +6,7 @@
 define view ZIT001W as select from zt001w {
     //ZT001W
     
-    werks,
+    key werks,
     name
 } 
  
