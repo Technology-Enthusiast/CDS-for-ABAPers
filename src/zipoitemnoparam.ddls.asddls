@@ -11,7 +11,7 @@ define view ZIPOItemNoParam as select from zpoitem
       menge                              as qty,
       meins,
       wrbtr,
-      waers,
+   waers,
       cast(case meins when 'PC' then 'Pieces' else 'Default'
       end as abap.char( 5 ))             as unitdescription,
       case waers when 'EUR' then 'Euro' else 'Default'
